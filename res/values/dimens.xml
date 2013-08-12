@@ -1,0 +1,27 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="textview_padding">12dp</dimen>
+    <dimen name="wizard_textsize">32sp</dimen>
+    <dimen name="huge_text">112sp</dimen>
+    <dimen name="medium_text">18sp</dimen>
+    <dimen name="landscape_textview_left_padding">58dp</dimen>
+    <dimen name="large_portriat_padding">36dp</dimen>
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="text_medium">18sp</dimen>
+    <dimen name="text_large">22sp</dimen>
+    <dimen name="card_paddingtop">12dp</dimen>
+    <dimen name="card_paddingsides">6dp</dimen>
+    <dimen name="large_landscape_scrollview_padding">24dp</dimen>
+    <dimen name="large_scrollview_padding">12dp</dimen>
+    <dimen name="scrollview_paddingtop">64dp</dimen>
+    <dimen name="scrollview_padding">6dp</dimen>
+    <dimen name="textview_padding_small">4dp</dimen>
+    <dimen name="textview_padding_large">24dp</dimen>
+    <dimen name="linegraph_margin">8dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">12dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+    
+</resources>

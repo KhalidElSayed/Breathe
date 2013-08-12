@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <declare-styleable name="BarGraph">
+       <attr name="showTopLabel" format="boolean" />
+       <attr name="topLabelTextSize" format="dimension" />
+   </declare-styleable>
+</resources>

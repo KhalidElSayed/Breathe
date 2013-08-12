@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/app_settings" >
+        
+        <PreferenceScreen
+            android:summary="@string/home_screen_summary"
+            android:title="@string/home_screen" >
+            
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="boolean_targetenabled"
+                android:summary="@string/target_enabled_summary"
+                android:title="@string/target_enabled" />
+            
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="boolean_quoteenabled"
+                android:summary="@string/quote_enabled_summary"
+                android:title="@string/quote_enabled" />
+            
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="boolean_cdcrssenabled"
+                android:summary="@string/cdcrss_enabled_summary"
+                android:title="@string/cdcrss_enabled" />
+            
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="boolean_dateenabled"
+                android:summary="@string/date_enabled_summary"
+                android:title="@string/date_enabled" />
+            
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="boolean_johnsrssenabled"
+                android:summary="@string/johnsrss_enabled_summary"
+                android:title="@string/johnsrss_enabled" />
+            
+        </PreferenceScreen>
+
+        <com.github.johnpersano.breathe.utility.TimePreference
+            android:key="string_wakeuptime"
+            android:title="@string/new_day_start_time" />
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory 
+        android:title="@string/personalization" >
+        
+        <com.github.johnpersano.breathe.utility.NamePreference
+            android:key="string_username"
+            android:title="@string/name" />
+        
+    </PreferenceCategory>
+
+</PreferenceScreen>

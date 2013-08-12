@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Breathe</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Welcome</string>
+    <string name="thanks_for_downloading">Thank you for downloading Breathe. Please swipe your finger from right to left or press the Next button to get started.</string>
+    <string name="daily_smoked">Daily smoked</string>
+    <string name="enter_daily_smoked">Estimate the amount of cigarettes you smoke every day.</string>
+    <string name="dollar_sign">$</string>
+    <string name="decimal_point">.</string>
+    <string name="price_pack">Price per pack</string>
+    <string name="enter_price_pack">Enter the average price of a pack of cigarettes in your area.</string>
+    <string name="cigarettes_in_pack">Cigarettes in pack</string>
+    <string name="enter_cigarettes_in_pack">Enter the amount of cigarettes in a pack.</string>
+    <string name="review">Review</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string-array name="navigation_selections">
+        <item>Home</item>
+        <item>Lectures</item>
+        <item>Predictions</item>
+        <item>Graphs</item>
+        <item>Links</item>
+        <item>Community</item>
+    </string-array>
+    
+    <string-array name="smokinghistory_selections">
+        <item>Past 3 days</item>
+        <item>Past 5 days</item>
+        <item>Past week</item>
+        <item>Past two weeks</item>
+    </string-array>
+
+    <string name="todays_target">Today\'s target</string>
+    <string name="log_in_cigarette">Log in a cigarette</string>
+    <string name="quote_of_day">Quote of the day</string>
+    <string name="preferences">App preferences</string>
+    <string name="personalization">Personalization</string>
+    <string name="name">Name</string>
+    <string name="your_first_name">Your first name</string>
+    <string name="cdc_rss">CDC RSS feed</string>
+    <string name="todays_date">Today\'s date</string>
+    <string name="johns_rss">John\'s RSS feed</string>
+    <string name="app_settings">App settings</string>
+    <string name="home_screen">Home screen</string>
+    <string name="home_screen_summary">Change your home screen</string>
+    <string name="target_enabled">Target enabled</string>
+    <string name="target_enabled_summary">Select to enable the target card</string>
+    <string name="quote_enabled">Quote enabled</string>
+    <string name="quote_enabled_summary">Select to enable the quote card</string>
+    <string name="cdcrss_enabled">CDC RSS enabled</string>
+    <string name="cdcrss_enabled_summary">Select to enable the CDC RSS feed card</string>
+    <string name="date_enabled">Date enabled</string>
+    <string name="date_enabled_summary">Select to enable the today\'s date card</string>
+    <string name="johnsrss_enabled">John\'s RSS enabled</string>
+    <string name="johnsrss_enabled_summary">Select to enable John\s RSS feed card</string>
+    <string name="set">Set</string>
+    <string name="cancel">Cancel</string>
+    <string name="new_day_start_time">New day start time</string>
+    <string name="welcome_user">Welcome %1$s</string>
+    <string name="new_day_changed">New day time changed.</string>
+    <string name="info_allcaps">INFO</string>
+    <string name="new_day">New day</string>
+    <string name="new_day_dialog">A new day begins at the time you set. You should set this to a time a few hours before you wake up.</string>
+    <string name="smoked_history">Smoking history</string>
+    <string name="date">Date:</string>
+    <string name="smokinghistory_placeholder"><i>Select a point for info</i></string>
+    <string name="show_data_for">Show data for</string>
+    <string name="your_selection_outofbounds">Your selection is out of bounds</string>
+    <string name="linegraph_dialog">Target: %1$d \nSmoked: %2$d</string>
+    <string name="target_data">Target: %1$d</string>
+    <string name="smoked_data">Smoked: %1$d</string>
+    
+    
+
+</resources>

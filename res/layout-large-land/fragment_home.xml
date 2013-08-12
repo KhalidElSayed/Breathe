@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/textview_padding"
+        android:paddingLeft="40dp"
+        android:paddingRight="@dimen/textview_padding"
+        android:paddingTop="@dimen/textview_padding"
+        android:text="@string/welcome"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/holo_blue"
+        android:textSize="@dimen/wizard_textsize" />
+
+    <com.github.johnpersano.breathe.utility.ScrollViewFader
+        android:id="@+id/fader_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/large_landscape_scrollview_padding"
+            android:paddingRight="@dimen/large_landscape_scrollview_padding"
+            android:paddingTop="@dimen/scrollview_paddingtop" >
+
+            <LinearLayout
+                android:id="@+id/root_layout_left"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/root_layout_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:orientation="vertical" />
+        </LinearLayout>
+    </com.github.johnpersano.breathe.utility.ScrollViewFader>
+
+</RelativeLayout>
